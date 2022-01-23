@@ -43,5 +43,5 @@ echo "aa"
   Quos, fuga, iusto similique cupiditate a maxime itaque `#!/bin/bash
   echo "aa"` rerum ipsa possimus nulla modi praesentium corrupti accusamus est!
   
-  ![foggy](https://github.com/Oliviery12/STR/blob/main/foggy%20(1).jpg "cos")
+
   
