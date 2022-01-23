@@ -1,0 +1,161 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+  margin-top: 0px;
+  background-color: #231f20;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[10];
+      grid-template-columns: repeat(10, 1fr);
+      grid-template-areas: 'tytuł img cos  cos cos cos opis regulamin zdjecia kontakt';
+}
+
+h1 {
+  cursor: pointer;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  color: white;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: tytuł;
+  margin-left: 50px;
+  font-size: 50px;
+  text-shadow: 3px 6px 9px #727272;
+}
+
+a {
+  text-align: center;
+  width: 150px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  text-decoration: none;
+  margin-right: 30px;
+  font-size: 20px;
+}
+
+a:first-of-type {
+  -ms-grid-row: 1;
+  -ms-grid-column: 7;
+  grid-area: opis;
+}
+
+a:last-of-type {
+  -ms-grid-row: 1;
+  -ms-grid-column: 10;
+  grid-area: kontakt;
+}
+
+a:nth-of-type(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 8;
+  grid-area: regulamin;
+}
+
+a:nth-of-type(3) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 9;
+  grid-area: zdjecia;
+}
+
+a:link {
+  color: blanchedalmond;
+}
+
+a:visited {
+  color: blanchedalmond;
+}
+
+a:hover {
+  color: #9a9aa1;
+}
+
+.info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.info h2 {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 80px;
+}
+
+.info .info-text {
+  margin-top: 0px;
+  width: 900px;
+  padding: 50px 50px;
+  color: #e7e0e0;
+  background-color: #231f20;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -webkit-box-shadow: 5px 7px 9px 9px #424141;
+          box-shadow: 5px 7px 9px 9px #424141;
+}
+
+.KONTAKT {
+  margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.KONTAKT .kOntakt {
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+  font-size: 80px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.KONTAKT .kOntakt .tel {
+  margin-top: 60px;
+  font-weight: none;
+  width: 900px;
+  padding: 50px 50px;
+  color: #e7e0e0;
+  background-color: #231f20;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -webkit-box-shadow: 5px 7px 9px 9px #424141;
+          box-shadow: 5px 7px 9px 9px #424141;
+  font-size: 30px;
+}
+/*# sourceMappingURL=Rehberg.css.map */
